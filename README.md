@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pangea Production Website
+<img width="1280" alt="Pangea" src="https://user-images.githubusercontent.com/82405060/232338422-d0a5806a-fce5-430e-9ed7-8ac5e2f2bae0.png">
 
 ## Available Scripts
 
