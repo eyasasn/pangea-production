@@ -1,8 +1,29 @@
 .footer-text {
-    font-size: 12px;
-    font-family: 'Poppins';
+    font-size: 14px;
+    font-family: 'Big Shoulders Stencil Display';
     font-weight: 400;
-    line-height: 18px;
+    line-height: 25px;
+    letter-spacing: 5px;
     color:
-        rgba(255, 255, 255, 0.8);
+        #000;
+    padding: 20px;
+}
+
+.line {
+    border-top: 1px solid #4F4C4C;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-text {
+        font-size: 8px;
+        letter-spacing: 0;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .footer-text {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
 }

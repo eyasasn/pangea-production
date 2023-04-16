@@ -1,0 +1,131 @@
+.madun-title {
+    color: #000;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 10px;
+
+}
+
+.madun-first-p {
+    color: #979797;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+
+.madun-rest-p {
+    color: #000;
+    font-family: 'IM Fell French Canon SC';
+    text-align: justify;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+
+}
+
+.madun-subtitles {
+    color: #000;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.madun-subtitles-2 {
+    color: #CACACA;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ali-cabbar-m {
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'IM Fell French Canon SC';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .madun-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .madun-first-p {
+        font-size: 10px;
+        text-align: justify;
+        line-height: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+
+    .madun-rest-p {
+        font-size: 10px;
+        text-align: justify;
+        line-height: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .madun-subtitles {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .ali-cabbar-m {
+        font-size: 8px;
+        margin-bottom: 10px;
+
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .madun-title {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .madun-first-p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .madun-rest-p {
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+
+    .madun-subtitles {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

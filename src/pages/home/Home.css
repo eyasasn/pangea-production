@@ -7,16 +7,23 @@
     justify-content: space-between;
 }
 
-.main-image {
-    display: flex;
-    flex: 1;
-    background-image: url("../../images/HomeImage.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
 
 .zero {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+
+.carousel-control-next-icon {
+    height: 100px;
+    width: 30px;
+}
+
+.carousel-control-prev-icon {
+    height: 100px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media (min-width:600px) and (max-width:1000px) {}

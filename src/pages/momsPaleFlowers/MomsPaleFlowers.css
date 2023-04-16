@@ -1,0 +1,63 @@
+.moms-pale-flowers-title {
+    color: #000;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.moms-pale-flowers-first-p {
+    color: #979797;
+    font-family: 'IM Fell French Canon SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 80px;
+}
+
+.ali-cabbar-p {
+    color: #cacaca;
+    font-size: 14px;
+    font-family: 'IM Fell French Canon SC';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .moms-pale-flowers-title {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .moms-pale-flowers-first-p {
+        font-size: 10px;
+        text-align: justify;
+        line-height: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 200px;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .moms-pale-flowers-title {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .moms-pale-flowers-first-p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}

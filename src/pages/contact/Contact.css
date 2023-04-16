@@ -1,0 +1,69 @@
+.contact-title {
+    color: #000;
+    font-family: 'Big Shoulders Stencil Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    /* margin-top: 10%; */
+    padding-top: 230px;
+
+}
+
+.contact-p {
+    color: #fdfdfd;
+    font-family: 'Big Shoulders Stencil Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    /* margin-bottom: 280px; */
+
+}
+
+.bg-contact {
+    background-color: #d9d9d9;
+    width: 100vw;
+    height: 80vh;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .bg-contact {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .contact-title {
+        font-size: 20px;
+        /* margin-top: 30%; */
+        padding-left: 30px;
+        padding-right: 30px;
+        /* padding-top: 160px; */
+    }
+
+    .contact-p {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:1000px) {
+    .bg-contact {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contact-title {
+        font-size: 30px;
+        margin-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 160px;
+    }
+
+    .contact-p {
+        font-size: 20px;
+    }
+}

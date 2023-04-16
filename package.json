@@ -1,5 +1,6 @@
 {
-  "name": "pangea-pro",
+  "name": "Pangea Production",
+  "homepage": "https://pangeaproduction.net/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
